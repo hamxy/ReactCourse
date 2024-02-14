@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(75, 198, 198);
+  margin: 0;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+}
+
+main {
+  background-color: beige;
+  box-sizing: border-box;
+  padding: 5em 2em;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.cardWrapper {
+  background-color: blueviolet;
+  display: flex;
+  max-width: 60em;
+  margin: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4em;
+}
+
